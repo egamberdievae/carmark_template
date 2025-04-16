@@ -29,7 +29,7 @@
   color: #000000;
 }
 
-.featuress button {
+/* .featuress button {
   background-color: #f50e30;
   font-family: Inter;
   font-weight: 700;
@@ -42,14 +42,38 @@
   padding: 18px 54px;
   border: 1px solid #f50e30;
   border-radius: 8px;
-  /* margin-top: 24px; */
   margin-bottom: 12px;
   transition: all 0.3s ease;
-}
+} */
 
-.featuress button:hover {
+/* .featuress button:hover {
   background-color: transparent;
   color: #f50e30;
+} */
+
+
+.featuress button {
+  margin-bottom: 12px;
+  display: block;
+  padding: 18px 54px;
+  background: linear-gradient(to right, #e66465 50%, #fff 50%);
+  background-size: 200% 100.5%;
+  background-position: right bottom;
+  font: 1.25em Inter;
+  color: #020202;
+  border: none;
+  border-left: 0.2em solid #e66465;
+  border-color: none;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 28px;
+  border-radius: 8px;
+}
+.featuress button:hover {
+  background-position: left bottom;
+  color: white;
 }
 
 .featuress .roww {
